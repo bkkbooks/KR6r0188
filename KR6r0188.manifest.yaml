@@ -1,0 +1,59 @@
+canonical_identifier: bkk:krp/KR6r0188/v1
+canonical_location: https://kanripo.org/bkk/KR6r0188/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 宗喀巴大師傳
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/G/G160/G160n2619.xml
+    old_id: G160n2619
+  edition:
+    short: bkk
+editions:
+- short: 佛教
+  label: 佛教
+  source_xml_id: wit.orig
+- short: G
+assets:
+  parts:
+  - {seq: 0, filename: KR6r0188_000.yaml, hash: 'sha256:434c7424686b973220f314c8b81cc9ec91b26e04606098d5a1e153a7d65d302a'}
+  - {seq: 1, filename: KR6r0188_001.yaml, hash: 'sha256:506084dcdd6560c6a26a5c42e1dbc3a5020de4b5b4b5ebedd758630abd0f5c39'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6r0188_001.markers.yaml, hash: 'sha256:37ba6824a1b394582652253d1b8d7cab97aba196f4acb0e15e50862a98351468'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6r0188_G_001-juan-start
+    span:
+    - body
+    - 0
+    - 5001
+  label: 宗喀巴大師傳
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6r0188_G_001-mulu-1
+    span:
+    - body
+    - 3
+    - 3
+  label: 一、事略
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6r0188_G_001-mulu-2
+    span:
+    - body
+    - 4164
+    - 4164
+  label: 二、宗喀巴的弟子
+  type: mulu
+  level: 1
+hash: sha256:3893bfafab7eba0cc2dd45be71ca9b00fb1be8e5d1a74e84ed951b6ab260f8d0
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

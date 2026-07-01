@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6r0188/g/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 宗喀巴大師傳
+  edition:
+    short: g
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/G/G160/G160n2619.xml
+    old_id: G160n2619
+hash: sha256:434c7424686b973220f314c8b81cc9ec91b26e04606098d5a1e153a7d65d302a

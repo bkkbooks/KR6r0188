@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR6r0188/G/v1
+canonical_location: https://kanripo.org/bkk/KR6r0188/G/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 宗喀巴大師傳
+  identifiers:
+    krp: KR6r0188
+    cbeta: G160n2619
+    cbeta_old_id: G160n2619
+    authorityid: CA0008688
+    json_key: G2619
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/G/G160/G160n2619.xml
+    old_id: G160n2619
+  edition:
+    short: G
+assets:
+  parts:
+  - {seq: 0, filename: KR6r0188_000-G.yaml, hash: 'sha256:434c7424686b973220f314c8b81cc9ec91b26e04606098d5a1e153a7d65d302a'}
+  - {seq: 1, filename: KR6r0188_001-G.yaml, hash: 'sha256:44af93c28b212a8becd09ed89b6b01bb323115300f6bc0cb893e46a1ab5fce09'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6r0188_000-G.markers.yaml, hash: 'sha256:f57c80142ad4ad11ac8feb1618ffcbbe9a3f86736c24a1a1bca91211a377e88f'}
+  - {seq: 1, role: markers, filename: assets/KR6r0188_001-G.markers.yaml, hash: 'sha256:860b55c162a10714dd1fcc3ca71ff899a62f45d000c2fc11a1b29819bcbcf748'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6r0188_G_001-juan-start
+    span:
+    - body
+    - 0
+    - 5001
+  label: 宗喀巴大師傳
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6r0188_G_001-mulu-1
+    span:
+    - body
+    - 3
+    - 3
+  label: 一、事略
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6r0188_G_001-mulu-2
+    span:
+    - body
+    - 4164
+    - 4164
+  label: 二、宗喀巴的弟子
+  type: mulu
+  level: 1
+hash: sha256:df21abd932f18b562870f4d21b4394946c8509e91d9e01788865038815626443
