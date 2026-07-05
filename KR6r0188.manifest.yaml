@@ -19,9 +19,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6r0188_000.yaml, hash: 'sha256:434c7424686b973220f314c8b81cc9ec91b26e04606098d5a1e153a7d65d302a'}
-  - {seq: 1, filename: KR6r0188_001.yaml, hash: 'sha256:506084dcdd6560c6a26a5c42e1dbc3a5020de4b5b4b5ebedd758630abd0f5c39'}
+  - {seq: 1, filename: KR6r0188_001.yaml, hash: 'sha256:44af93c28b212a8becd09ed89b6b01bb323115300f6bc0cb893e46a1ab5fce09'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6r0188_001.markers.yaml, hash: 'sha256:37ba6824a1b394582652253d1b8d7cab97aba196f4acb0e15e50862a98351468'}
+  - {seq: 0, role: markers, filename: assets/KR6r0188_000.markers.yaml, hash: 'sha256:d499657f808a690e13f26a0ad3c2192bc640639aa34bd45493cff8a6dd1977d5'}
+  - {seq: 1, role: markers, filename: assets/KR6r0188_001.markers.yaml, hash: 'sha256:96cbddc3cb571c88489559d0e7a6e19f1ae52a65e1b746fb7c3ec87b7400202d'}
 table_of_contents:
 - ref:
     seq: 1
@@ -53,7 +54,4 @@ table_of_contents:
   label: 二、宗喀巴的弟子
   type: mulu
   level: 1
-hash: sha256:3893bfafab7eba0cc2dd45be71ca9b00fb1be8e5d1a74e84ed951b6ab260f8d0
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:55a76976b0ab101291b7cbb97abff24fec3514729e8e463e31026d0e768d9b7a
